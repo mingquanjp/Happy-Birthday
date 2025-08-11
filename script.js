@@ -19,7 +19,7 @@ function updatePasswordDisplay() {
       dot.classList.remove('filled');
     }
   });
-};
+}
 
 numberButtons.forEach(button => {
   button.addEventListener('click', () => {
